@@ -38,10 +38,12 @@ To create a new task, use the `create_task.sh` script:
 
 1. Run the script with a task ID:
    ```bash
+   chmod +x ./create_task.sh
    ./create_task.sh <task_id>
    ```
    Example:
    ```bash
+   chmod +x ./create_task.sh
    ./create_task.sh 621300
    ```
 
@@ -72,10 +74,12 @@ To build and test tasks, use the `code_runner.sh` script:
 
 ### Running a Specific Task
 ```bash
+chmod +x ./code_runner.sh
 ./code_runner.sh <task_id>
 ```
 Example:
 ```bash
+chmod +x ./code_runner.sh
 ./code_runner.sh 621206
 ```
 
