@@ -1,0 +1,685 @@
+Start testing: Jan 02 23:20 +06
+----------------------------------------------------------
+1/13 Testing: base_code_tests
+1/13 Test: base_code_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/base_code_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"base_code_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (12 ms)
+[ RUN      ] SubsetSumTest.Test5
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:40: Failure
+Expected equality of these values:
+  result
+    Which is: { 2, 3, 4 }
+  std::vector<int>({1, 3, 5})
+    Which is: { 1, 3, 5 }
+
+[  FAILED  ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+[       OK ] SubsetSumTest.Test7 (180 ms)
+[----------] 7 tests from SubsetSumTest (193 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (193 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test5
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"base_code_tests" end time: Jan 02 23:20 +06
+"base_code_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: correct_response_tests
+2/13 Test: correct_response_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/correct_response_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"correct_response_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (7 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+[       OK ] SubsetSumTest.Test7 (84 ms)
+[----------] 7 tests from SubsetSumTest (93 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (93 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"correct_response_tests" end time: Jan 02 23:20 +06
+"correct_response_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/13 Testing: incorrect_response_tests
+3/13 Test: incorrect_response_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/incorrect_response_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"incorrect_response_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (6 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: {}
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (78 ms)
+[----------] 7 tests from SubsetSumTest (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (85 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_response_tests" end time: Jan 02 23:20 +06
+"incorrect_response_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/13 Testing: model1_tests
+4/13 Test: model1_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model1_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model1_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (7 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: {}
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (76 ms)
+[----------] 7 tests from SubsetSumTest (84 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (84 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"model1_tests" end time: Jan 02 23:20 +06
+"model1_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: model10_tests
+5/13 Test: model10_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model10_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model10_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:25: Failure
+Expected equality of these values:
+  result
+    Which is: { 2, 3 }
+  std::vector<int>({5})
+    Which is: { 5 }
+
+[  FAILED  ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (19 ms)
+[ RUN      ] SubsetSumTest.Test5
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:40: Failure
+Expected equality of these values:
+  result
+    Which is: { 2, 3, 4 }
+  std::vector<int>({1, 3, 5})
+    Which is: { 1, 3, 5 }
+
+[  FAILED  ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (700 ms)
+[----------] 7 tests from SubsetSumTest (720 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (720 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] SubsetSumTest.Test3
+[  FAILED  ] SubsetSumTest.Test5
+[  FAILED  ] SubsetSumTest.Test7
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Failed.
+"model10_tests" end time: Jan 02 23:20 +06
+"model10_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: model2_tests
+6/13 Test: model2_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model2_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model2_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (6 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: {}
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (76 ms)
+[----------] 7 tests from SubsetSumTest (83 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (83 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"model2_tests" end time: Jan 02 23:20 +06
+"model2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/13 Testing: model3_tests
+7/13 Test: model3_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model3_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model3_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (15 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (178 ms)
+[----------] 7 tests from SubsetSumTest (194 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (194 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"model3_tests" end time: Jan 02 23:20 +06
+"model3_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/13 Testing: model4_tests
+8/13 Test: model4_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model4_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model4_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (6 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: {}
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (78 ms)
+[----------] 7 tests from SubsetSumTest (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (85 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"model4_tests" end time: Jan 02 23:20 +06
+"model4_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: model5_tests
+9/13 Test: model5_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model5_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model5_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (15 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: {}
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (178 ms)
+[----------] 7 tests from SubsetSumTest (193 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (193 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"model5_tests" end time: Jan 02 23:20 +06
+"model5_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/13 Testing: model6_tests
+10/13 Test: model6_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model6_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model6_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (17 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (219 ms)
+[----------] 7 tests from SubsetSumTest (236 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (236 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Failed.
+"model6_tests" end time: Jan 02 23:20 +06
+"model6_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/13 Testing: model7_tests
+11/13 Test: model7_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model7_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model7_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (12 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (169 ms)
+[----------] 7 tests from SubsetSumTest (181 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (181 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Failed.
+"model7_tests" end time: Jan 02 23:20 +06
+"model7_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/13 Testing: model8_tests
+12/13 Test: model8_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model8_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model8_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+[       OK ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+[       OK ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+[       OK ] SubsetSumTest.Test4 (6 ms)
+[ RUN      ] SubsetSumTest.Test5
+[       OK ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+[       OK ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (80 ms)
+[----------] 7 tests from SubsetSumTest (86 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (87 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SubsetSumTest.Test7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"model8_tests" end time: Jan 02 23:20 +06
+"model8_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/13 Testing: model9_tests
+13/13 Test: model9_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/model9_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build
+"model9_tests" start time: Jan 02 23:20 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SubsetSumTest
+[ RUN      ] SubsetSumTest.Test1
+[       OK ] SubsetSumTest.Test1 (0 ms)
+[ RUN      ] SubsetSumTest.Test2
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:18: Failure
+Expected equality of these values:
+  result
+    Which is: { 5, 7 }
+  std::vector<int>({3, 5})
+    Which is: { 3, 5 }
+
+[  FAILED  ] SubsetSumTest.Test2 (0 ms)
+[ RUN      ] SubsetSumTest.Test3
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:25: Failure
+Expected equality of these values:
+  result
+    Which is: { 2, 5 }
+  std::vector<int>({5})
+    Which is: { 5 }
+
+[  FAILED  ] SubsetSumTest.Test3 (0 ms)
+[ RUN      ] SubsetSumTest.Test4
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:32: Failure
+Expected equality of these values:
+  result
+    Which is: { 25000, 50000, 100000 }
+  std::vector<int>({100000})
+    Which is: { 100000 }
+
+[  FAILED  ] SubsetSumTest.Test4 (6 ms)
+[ RUN      ] SubsetSumTest.Test5
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:40: Failure
+Expected equality of these values:
+  result
+    Which is: { 4, 5 }
+  std::vector<int>({1, 3, 5})
+    Which is: { 1, 3, 5 }
+
+[  FAILED  ] SubsetSumTest.Test5 (0 ms)
+[ RUN      ] SubsetSumTest.Test6
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:47: Failure
+Expected equality of these values:
+  result
+    Which is: { 30 }
+  std::vector<int>({20})
+    Which is: { 20 }
+
+[  FAILED  ] SubsetSumTest.Test6 (0 ms)
+[ RUN      ] SubsetSumTest.Test7
+/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621206/tests/test_model.cpp:55: Failure
+Expected equality of these values:
+  result
+    Which is: { 50000, 50000, 100000, 100000, 100000, 100000 }
+  std::vector<int>({100000, 100000, 100000, 100000, 100000})
+    Which is: { 100000, 100000, 100000, 100000, 100000 }
+
+[  FAILED  ] SubsetSumTest.Test7 (73 ms)
+[----------] 7 tests from SubsetSumTest (80 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (80 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 6 tests, listed below:
+[  FAILED  ] SubsetSumTest.Test2
+[  FAILED  ] SubsetSumTest.Test3
+[  FAILED  ] SubsetSumTest.Test4
+[  FAILED  ] SubsetSumTest.Test5
+[  FAILED  ] SubsetSumTest.Test6
+[  FAILED  ] SubsetSumTest.Test7
+
+ 6 FAILED TESTS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"model9_tests" end time: Jan 02 23:20 +06
+"model9_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 02 23:20 +06
