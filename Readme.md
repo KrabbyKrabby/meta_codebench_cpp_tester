@@ -142,8 +142,8 @@ tasks/<task_id>/
 - **Make**: For building the projects.
 
 ## Requirements
-CMake>=3.14
-Make
-GoogleTest (fetched automatically during the build process)
-C++17-compatible compiler (e.g., GCC, Clang, MSVC)
-Bash
+- CMake>=3.14
+- Make
+- GoogleTest (fetched automatically during the build process)
+- C++17-compatible compiler (e.g., GCC, Clang, MSVC)
+- Bash
