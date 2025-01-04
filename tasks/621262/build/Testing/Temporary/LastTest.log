@@ -1,0 +1,425 @@
+Start testing: Jan 03 00:21 +06
+----------------------------------------------------------
+1/13 Testing: A_tests
+1/13 Test: A_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/A_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"A_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+[       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+Value of: fs.filePathExists("/trailing/slashes/")
+  Actual: true
+Expected: false
+
+[  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+[       OK ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FileSystemTest.EdgeCases
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"A_tests" end time: Jan 03 00:21 +06
+"A_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: B_tests
+2/13 Test: B_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/B_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"B_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+[       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+[       OK ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+[       OK ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"B_tests" end time: Jan 03 00:21 +06
+"B_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+3/13 Testing: C_tests
+3/13 Test: C_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"C_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"C_tests" end time: Jan 03 00:21 +06
+"C_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+4/13 Testing: D_tests
+4/13 Test: D_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"D_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"D_tests" end time: Jan 03 00:21 +06
+"D_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: E_tests
+5/13 Test: E_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/E_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"E_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+unknown file: Failure
+C++ exception with description "Cannot create file in path that conflicts with existing file" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+unknown file: Failure
+C++ exception with description "Cannot create file in path that conflicts with existing file" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+unknown file: Failure
+C++ exception with description "Path conflicts with existing file" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] FileSystemTest.ListFilesInDirectory
+[  FAILED  ] FileSystemTest.EdgeCases
+[  FAILED  ] FileSystemTest.AddFilePathValid
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"E_tests" end time: Jan 03 00:21 +06
+"E_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: F_tests
+6/13 Test: F_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/F_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"F_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:29: Failure
+Expected equality of these values:
+  sortedResult
+    Which is: {}
+  (std::vector<std::string>{"/a/b/c.txt", "/a/b/d.txt"})
+    Which is: { "/a/b/c.txt", "/a/b/d.txt" }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:31: Failure
+Expected equality of these values:
+  fs.listFilesInDirectory("/a/e")
+    Which is: {}
+  (std::vector<std::string>{"/a/e/f.txt"})
+    Which is: { "/a/e/f.txt" }
+
+[  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:47: Failure
+Expected equality of these values:
+  fs.listFilesInDirectory("/a/")
+    Which is: {}
+  std::vector<std::string>{"/a/bbb.txt"}
+    Which is: { "/a/bbb.txt" }
+
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+Value of: fs.filePathExists("/trailing/slashes/")
+  Actual: true
+Expected: false
+
+[  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+[       OK ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:91: Failure
+Expected: fs.addFilePath("/a/b") throws an exception of type std::invalid_argument.
+  Actual: it throws nothing.
+
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:94: Failure
+Expected: fs.addFilePath("a/c.txt") throws an exception of type std::invalid_argument.
+  Actual: it throws nothing.
+
+[  FAILED  ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] FileSystemTest.ListFilesInDirectory
+[  FAILED  ] FileSystemTest.EdgeCases
+[  FAILED  ] FileSystemTest.AddFilePathInvalid
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"F_tests" end time: Jan 03 00:21 +06
+"F_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+7/13 Testing: G_tests
+7/13 Test: G_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"G_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"G_tests" end time: Jan 03 00:21 +06
+"G_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+8/13 Testing: H_tests
+8/13 Test: H_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"H_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"H_tests" end time: Jan 03 00:21 +06
+"H_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: I_tests
+9/13 Test: I_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/I_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"I_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+unknown file: Failure
+C++ exception with description "File path conflicts with an existing directory path" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+unknown file: Failure
+C++ exception with description "File path conflicts with an existing directory path" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+unknown file: Failure
+C++ exception with description "File path already exists" thrown in the test body.
+
+[  FAILED  ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] FileSystemTest.ListFilesInDirectory
+[  FAILED  ] FileSystemTest.EdgeCases
+[  FAILED  ] FileSystemTest.AddFilePathValid
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"I_tests" end time: Jan 03 00:21 +06
+"I_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+10/13 Testing: J_tests
+10/13 Test: J_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"J_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"J_tests" end time: Jan 03 00:21 +06
+"J_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+11/13 Testing: base_tests
+11/13 Test: base_tests
+Command: ""
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"base_tests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"base_tests" end time: Jan 03 00:21 +06
+"base_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/13 Testing: ideal_tests
+12/13 Test: ideal_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/ideal_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"ideal_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+[       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+[       OK ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+[       OK ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ideal_tests" end time: Jan 03 00:21 +06
+"ideal_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/13 Testing: incorrect_tests
+13/13 Test: incorrect_tests
+Command: "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/incorrect_tests"
+Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+"incorrect_tests" start time: Jan 03 00:21 +06
+Output:
+----------------------------------------------------------
+Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FileSystemTest
+[ RUN      ] FileSystemTest.NormalizePath
+[       OK ] FileSystemTest.NormalizePath (0 ms)
+[ RUN      ] FileSystemTest.ListFilesInDirectory
+[       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+[ RUN      ] FileSystemTest.EdgeCases
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+Value of: fs.filePathExists("/trailing/slashes/")
+  Actual: true
+Expected: false
+
+[  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathValid
+[       OK ] FileSystemTest.AddFilePathValid (0 ms)
+[ RUN      ] FileSystemTest.AddFilePathInvalid
+[       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+[----------] 5 tests from FileSystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FileSystemTest.EdgeCases
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"incorrect_tests" end time: Jan 03 00:21 +06
+"incorrect_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 03 00:21 +06

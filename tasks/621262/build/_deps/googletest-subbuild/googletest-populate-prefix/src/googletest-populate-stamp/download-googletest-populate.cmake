@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(VERBOSE "verifying file...
-       file='/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'")
+       file='/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'")
 
-  file("" "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip" actual_value)
+  file("" "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(VERBOSE " hash of
-    /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip
+    /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
+if(EXISTS "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(VERBOSE "File already exists and hash match (skip download):
-  file='/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
+  file='/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
   =''"
       )
       return()
     else()
       message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
+      file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
     endif()
   else()
     message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
+  file='/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
+    file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(VERBOSE "Downloading...
-   dst='/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
+   dst='/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip"
+        "${url}" "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -136,7 +136,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
+          file(REMOVE "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip")
         else()
           message(VERBOSE "Downloading... done")
           return()

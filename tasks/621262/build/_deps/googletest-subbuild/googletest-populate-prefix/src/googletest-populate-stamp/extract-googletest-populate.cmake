@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip" ABSOLUTE)
-get_filename_component(directory "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/googletest-populate-prefix/src/main.zip" ABSOLUTE)
+get_filename_component(directory "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

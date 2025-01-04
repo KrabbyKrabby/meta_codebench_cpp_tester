@@ -1,0 +1,670 @@
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/DartConfiguration.tcl
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+      Start  1: A_tests
+
+1: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/A_tests
+1: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+1: Test timeout computed to be: 5
+1: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+1: [==========] Running 5 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 5 tests from FileSystemTest
+1: [ RUN      ] FileSystemTest.NormalizePath
+1: [       OK ] FileSystemTest.NormalizePath (0 ms)
+1: [ RUN      ] FileSystemTest.ListFilesInDirectory
+1: [       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+1: [ RUN      ] FileSystemTest.EdgeCases
+1: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+1: Value of: fs.filePathExists("/trailing/slashes/")
+1:   Actual: true
+1: Expected: false
+1: 
+1: [  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+1: [ RUN      ] FileSystemTest.AddFilePathValid
+1: [       OK ] FileSystemTest.AddFilePathValid (0 ms)
+1: [ RUN      ] FileSystemTest.AddFilePathInvalid
+1: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+1: [----------] 5 tests from FileSystemTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 4 tests.
+1: [  FAILED  ] 1 test, listed below:
+1: [  FAILED  ] FileSystemTest.EdgeCases
+1: 
+1:  1 FAILED TEST
+ 1/13 Test  #1: A_tests ..........................***Failed    0.36 sec
+test 2
+      Start  2: B_tests
+
+2: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/B_tests
+2: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+2: Test timeout computed to be: 5
+2: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+2: [==========] Running 5 tests from 1 test suite.
+2: [----------] Global test environment set-up.
+2: [----------] 5 tests from FileSystemTest
+2: [ RUN      ] FileSystemTest.NormalizePath
+2: [       OK ] FileSystemTest.NormalizePath (0 ms)
+2: [ RUN      ] FileSystemTest.ListFilesInDirectory
+2: [       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+2: [ RUN      ] FileSystemTest.EdgeCases
+2: [       OK ] FileSystemTest.EdgeCases (0 ms)
+2: [ RUN      ] FileSystemTest.AddFilePathValid
+2: [       OK ] FileSystemTest.AddFilePathValid (0 ms)
+2: [ RUN      ] FileSystemTest.AddFilePathInvalid
+2: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+2: [----------] 5 tests from FileSystemTest (0 ms total)
+2: 
+2: [----------] Global test environment tear-down
+2: [==========] 5 tests from 1 test suite ran. (0 ms total)
+2: [  PASSED  ] 5 tests.
+ 2/13 Test  #2: B_tests ..........................   Passed    0.31 sec
+test 3
+      Start  3: C_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_SuitUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+e/tasks/621262/build/Debug/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+
+3: Test command: 
+3: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+ 3/13 Test  #3: C_tests ..........................***Not Run   0.00 sec
+test 4
+      Start  4: D_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+
+4: Test command: 
+4: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+ 4/13 Test  #4: D_tests ..........................***Not Run   0.00 sec
+test 5
+      Start  5: E_tests
+
+5: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/E_tests
+5: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+5: Test timeout computed to be: 5
+5: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+5: [==========] Running 5 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 5 tests from FileSystemTest
+5: [ RUN      ] FileSystemTest.NormalizePath
+5: [       OK ] FileSystemTest.NormalizePath (0 ms)
+5: [ RUN      ] FileSystemTest.ListFilesInDirectory
+5: unknown file: Failure
+5: C++ exception with description "Cannot create file in path that conflicts with existing file" thrown in the test body.
+5: 
+5: [  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+5: [ RUN      ] FileSystemTest.EdgeCases
+5: unknown file: Failure
+5: C++ exception with description "Cannot create file in path that conflicts with existing file" thrown in the test body.
+5: 
+5: [  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+5: [ RUN      ] FileSystemTest.AddFilePathValid
+5: unknown file: Failure
+5: C++ exception with description "Path conflicts with existing file" thrown in the test body.
+5: 
+5: [  FAILED  ] FileSystemTest.AddFilePathValid (0 ms)
+5: [ RUN      ] FileSystemTest.AddFilePathInvalid
+5: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+5: [----------] 5 tests from FileSystemTest (0 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 5 tests from 1 test suite ran. (0 ms total)
+5: [  PASSED  ] 2 tests.
+5: [  FAILED  ] 3 tests, listed below:
+5: [  FAILED  ] FileSystemTest.ListFilesInDirectory
+5: [  FAILED  ] FileSystemTest.EdgeCases
+5: [  FAILED  ] FileSystemTest.AddFilePathValid
+5: 
+5:  3 FAILED TESTS
+ 5/13 Test  #5: E_tests ..........................***Failed    0.33 sec
+test 6
+      Start  6: F_tests
+
+6: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/F_tests
+6: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+6: Test timeout computed to be: 5
+6: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+6: [==========] Running 5 tests from 1 test suite.
+6: [----------] Global test environment set-up.
+6: [----------] 5 tests from FileSystemTest
+6: [ RUN      ] FileSystemTest.NormalizePath
+6: [       OK ] FileSystemTest.NormalizePath (0 ms)
+6: [ RUN      ] FileSystemTest.ListFilesInDirectory
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:29: Failure
+6: Expected equality of these values:
+6:   sortedResult
+6:     Which is: {}
+6:   (std::vector<std::string>{"/a/b/c.txt", "/a/b/d.txt"})
+6:     Which is: { "/a/b/c.txt", "/a/b/d.txt" }
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:31: Failure
+6: Expected equality of these values:
+6:   fs.listFilesInDirectory("/a/e")
+6:     Which is: {}
+6:   (std::vector<std::string>{"/a/e/f.txt"})
+6:     Which is: { "/a/e/f.txt" }
+6: 
+6: [  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+6: [ RUN      ] FileSystemTest.EdgeCases
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:47: Failure
+6: Expected equality of these values:
+6:   fs.listFilesInDirectory("/a/")
+6:     Which is: {}
+6:   std::vector<std::string>{"/a/bbb.txt"}
+6:     Which is: { "/a/bbb.txt" }
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+6: Value of: fs.filePathExists("/trailing/slashes/")
+6:   Actual: true
+6: Expected: false
+6: 
+6: [  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+6: [ RUN      ] FileSystemTest.AddFilePathValid
+6: [       OK ] FileSystemTest.AddFilePathValid (0 ms)
+6: [ RUN      ] FileSystemTest.AddFilePathInvalid
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:91: Failure
+6: Expected: fs.addFilePath("/a/b") throws an exception of type std::invalid_argument.
+6:   Actual: it throws nothing.
+6: 
+6: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:94: Failure
+6: Expected: fs.addFilePath("a/c.txt") throws an exception of type std::invalid_argument.
+6:   Actual: it throws nothing.
+6: 
+6: [  FAILED  ] FileSystemTest.AddFilePathInvalid (0 ms)
+6: [----------] 5 tests from FileSystemTest (0 ms total)
+6: 
+6: [----------] Global test environment tear-down
+6: [==========] 5 tests from 1 test suite ran. (0 ms total)
+6: [  PASSED  ] 2 tests.
+6: [  FAILED  ] 3 tests, listed below:
+6: [  FAILED  ] FileSystemTest.ListFilesInDirectory
+6: [  FAILED  ] FileSystemTest.EdgeCases
+6: [  FAILED  ] FileSystemTest.AddFilePathInvalid
+6: 
+6:  3 FAILED TESTS
+ 6/13 Test  #6: F_tests ..........................***Failed    0.43 sec
+test 7
+      Start  7: G_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+Users/ittehad/DocUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+uments/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+
+7: Test command: 
+7: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+ 7/13 Test  #7: G_tests ..........................***Not Run   0.00 sec
+test 8
+      Start  8: H_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+
+8: Test command: 
+8: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+ 8/13 Test  #8: H_tests ..........................***Not Run   0.00 sec
+test 9
+      Start  9: I_tests
+
+9: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/I_tests
+9: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+9: Test timeout computed to be: 5
+9: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+9: [==========] Running 5 tests from 1 test suite.
+9: [----------] Global test environment set-up.
+9: [----------] 5 tests from FileSystemTest
+9: [ RUN      ] FileSystemTest.NormalizePath
+9: [       OK ] FileSystemTest.NormalizePath (0 ms)
+9: [ RUN      ] FileSystemTest.ListFilesInDirectory
+9: unknown file: Failure
+9: C++ exception with description "File path conflicts with an existing directory path" thrown in the test body.
+9: 
+9: [  FAILED  ] FileSystemTest.ListFilesInDirectory (0 ms)
+9: [ RUN      ] FileSystemTest.EdgeCases
+9: unknown file: Failure
+9: C++ exception with description "File path conflicts with an existing directory path" thrown in the test body.
+9: 
+9: [  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+9: [ RUN      ] FileSystemTest.AddFilePathValid
+9: unknown file: Failure
+9: C++ exception with descriptioUnable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+n "File path already exists" thrown in the test body.
+9: 
+9: [  FAILED  ] FileSystemTest.AddFilePathValid (0 ms)
+9: [ RUN      ] FileSystemTest.AddFilePathInvalid
+9: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+9: [----------] 5 tests from FileSystemTest (0 ms total)
+9: 
+9: [----------] Global test environment tear-down
+9: [==========] 5 tests from 1 test suite ran. (0 ms total)
+9: [  PASSED  ] 2 tests.
+9: [  FAILED  ] 3 tests, listed below:
+9: [  FAILED  ] FileSystemTest.ListFilesInDirectory
+9: [  FAILED  ] FileSystemTest.EdgeCases
+9: [  FAILED  ] FileSystemTest.AddFilePathValid
+9: 
+9:  3 FAILED TESTS
+ 9/13 Test  #9: I_tests ..........................***Failed    0.40 sec
+test 10
+      Start 10: J_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+
+10: Test command: 
+10: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+10/13 Test #10: J_tests ..........................***Not Run   0.00 sec
+test 11
+      Start 11: base_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Looked in the following places:
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+
+11: Test command: 
+11: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+11/13 Test #11: base_tests .......................***Not Run   0.00 sec
+test 12
+      Start 12: ideal_tests
+
+12: Test commaErrors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+nd: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/ideal_tests
+12: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+12: Test timeout computed to be: 5
+12: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+12: [==========] Running 5 tests from 1 test suite.
+12: [----------] Global test environment set-up.
+12: [----------] 5 tests from FileSystemTest
+12: [ RUN      ] FileSystemTest.NormalizePath
+12: [       OK ] FileSystemTest.NormalizePath (0 ms)
+12: [ RUN      ] FileSystemTest.ListFilesInDirectory
+12: [       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+12: [ RUN      ] FileSystemTest.EdgeCases
+12: [       OK ] FileSystemTest.EdgeCases (0 ms)
+12: [ RUN      ] FileSystemTest.AddFilePathValid
+12: [       OK ] FileSystemTest.AddFilePathValid (0 ms)
+12: [ RUN      ] FileSystemTest.AddFilePathInvalid
+12: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+12: [----------] 5 tests from FileSystemTest (0 ms total)
+12: 
+12: [----------] Global test environment tear-down
+12: [==========] 5 tests from 1 test suite ran. (0 ms total)
+12: [  PASSED  ] 5 tests.
+12/13 Test #12: ideal_tests ......................   Passed    0.34 sec
+test 13
+      Start 13: incorrect_tests
+
+13: Test command: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/incorrect_tests
+13: Working Directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+13: Test timeout computed to be: 5
+13: Running main() from /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-src/googletest/src/gtest_main.cc
+13: [==========] Running 5 tests from 1 test suite.
+13: [----------] Global test environment set-up.
+13: [----------] 5 tests from FileSystemTest
+13: [ RUN      ] FileSystemTest.NormalizePath
+13: [       OK ] FileSystemTest.NormalizePath (0 ms)
+13: [ RUN      ] FileSystemTest.ListFilesInDirectory
+13: [       OK ] FileSystemTest.ListFilesInDirectory (0 ms)
+13: [ RUN      ] FileSystemTest.EdgeCases
+13: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/tests/test_model.cpp:55: Failure
+13: Value of: fs.filePathExists("/trailing/slashes/")
+13:   Actual: true
+13: Expected: false
+13: 
+13: [  FAILED  ] FileSystemTest.EdgeCases (0 ms)
+13: [ RUN      ] FileSystemTest.AddFilePathValid
+13: [       OK ] FileSystemTest.AddFilePathValid (0 ms)
+13: [ RUN      ] FileSystemTest.AddFilePathInvalid
+13: [       OK ] FileSystemTest.AddFilePathInvalid (0 ms)
+13: [----------] 5 tests from FileSystemTest (0 ms total)
+13: 
+13: [----------] Global test environment tear-down
+13: [==========] 5 tests from 1 test suite ran. (0 ms total)
+13: [  PASSED  ] 4 tests.
+13: [  FAILED  ] 1 test, listed below:
+13: [  FAILED  ] FileSystemTest.EdgeCases
+13: 
+13:  1 FAILED TEST
+13/13 Test #13: incorrect_tests ..................***Failed    0.38 sec
+
+15% tests passed, 11 tests failed out of 13
+
+Total Test time (real) =   2.56 sec
+
+The following tests FAILED:
+	  1 - A_tests (Failed)
+	  3 - C_tests (Not Run)
+	  4 - D_tests (Not Run)
+	  5 - E_tests (Failed)
+	  6 - F_tests (Failed)
+	  7 - G_tests (Not Run)
+	  8 - H_tests (Not Run)
+	  9 - I_tests (Failed)
+	 10 - J_tests (Not Run)
+	 11 - base_tests (Not Run)
+	 13 - incorrect_tests (Failed)
+Test project /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build
+      Start  1: A_tests
+ 1/13 Test  #1: A_tests ..........................***Failed    0.01 sec
+      Start  2: B_tests
+ 2/13 Test  #2: B_tests ..........................   Passed    0.00 sec
+      Start  3: C_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/C_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/C_tests
+ 3/13 Test  #3: C_tests ..........................***Not Run   0.00 sec
+      Start  4: D_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/D_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/D_tests
+ 4/13 Test  #4: D_tests ..........................***Not Run   0.00 sec
+      Start  5: E_tests
+ 5/13 Test  #5: E_tests ..........................***Failed    0.00 sec
+      Start  6: F_tests
+ 6/13 Test  #6: F_tests ..........................***Failed    0.00 sec
+      Start  7: G_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/G_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/G_tests
+ 7/13 Test  #7: G_tests ..........................***Not Run   0.00 sec
+      Start  8: H_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/H_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/H_tests
+ 8/13 Test  #8: H_tests ..........................***Not Run   0.00 sec
+      Start  9: I_tests
+ 9/13 Test  #9: I_tests ..........................***Failed    0.00 sec
+      Start 10: J_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/J_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/J_tests
+10/13 Test #10: J_tests ..........................***Not Run   0.00 sec
+      Start 11: base_tests
+Could not find executable /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Looked in the following places:
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Release/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Debug/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/MinSizeRel/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/RelWithDebInfo/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Deployment/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Development/base_tests
+Unable to find executable: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/base_tests
+11/13 Test #11: base_tests .......................***Not Run   0.00 sec
+      Start 12: ideal_tests
+12/13 Test #12: ideal_tests ......................   Passed    0.00 sec
+      Start 13: incorrect_tests
+13/13 Test #13: incorrect_tests ..................***Failed    0.00 sec
+
+15% tests passed, 11 tests failed out of 13
+
+Total Test time (real) =   0.04 sec
+
+The following tests FAILED:
+	  1 - A_tests (Failed)
+	  3 - C_tests (Not Run)
+	  4 - D_tests (Not Run)
+	  5 - E_tests (Failed)
+	  6 - F_tests (Failed)
+	  7 - G_tests (Not Run)
+	  8 - H_tests (Not Run)
+	  9 - I_tests (Failed)
+	 10 - J_tests (Not Run)
+	 11 - base_tests (Not Run)
+	 13 - incorrect_tests (Failed)
+Errors while running CTest
+Output from these tests are in: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

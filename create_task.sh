@@ -35,7 +35,7 @@ create_task_structure() {
     touch tasks/$task_id/tests/test_model.cpp
 
     # Create CMakeLists.txt in the task folder
-    cat > tasks/$task_id/CMakeLists.txt <<EOL
+cat > tasks/$task_id/CMakeLists.txt <<EOL
 cmake_minimum_required(VERSION 3.14)
 project(subset_sum_tests)
 
@@ -60,29 +60,30 @@ enable_testing()
 file(GLOB IMPLEMENTATIONS "src/*.cpp")
 
 # Iterate through each implementation and generate tests for each
-foreach(IMPLEMENTATION ${IMPLEMENTATIONS})
+foreach(IMPLEMENTATION \${IMPLEMENTATIONS})
     # Extract the implementation name (e.g., A, B, ideal, etc.)
-    get_filename_component(IMPL_NAME ${IMPLEMENTATION} NAME_WE)
+    get_filename_component(IMPL_NAME \${IMPLEMENTATION} NAME_WE)
 
     # Generate a unique wrapper file for each implementation
-    set(WRAPPER_TEMPLATE "${CMAKE_CURRENT_SOURCE_DIR}/template_wrapper.h.in")
-    set(WRAPPER_OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/wrapper_${IMPL_NAME}.h")
-    configure_file(${WRAPPER_TEMPLATE} ${WRAPPER_OUTPUT} @ONLY)
+    set(WRAPPER_TEMPLATE "\${CMAKE_CURRENT_SOURCE_DIR}/template_wrapper.h.in")
+    set(WRAPPER_OUTPUT "\${CMAKE_CURRENT_BINARY_DIR}/wrapper_\${IMPL_NAME}.h")
+    configure_file(\${WRAPPER_TEMPLATE} \${WRAPPER_OUTPUT} @ONLY)
 
     # Add a test executable for each implementation
-    add_executable(${IMPL_NAME}_tests tests/test_model.cpp)
+    add_executable(\${IMPL_NAME}_tests tests/test_model.cpp)
 
     # Link the implementation indirectly through the wrapper
-    target_include_directories(${IMPL_NAME}_tests PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-    target_compile_definitions(${IMPL_NAME}_tests PRIVATE WRAPPER_FILE="${WRAPPER_OUTPUT}")
+    target_include_directories(\${IMPL_NAME}_tests PRIVATE \${CMAKE_CURRENT_BINARY_DIR})
+    target_compile_definitions(\${IMPL_NAME}_tests PRIVATE WRAPPER_FILE="\${WRAPPER_OUTPUT}")
 
     # Link GoogleTest
-    target_link_libraries(${IMPL_NAME}_tests GTest::gtest_main)
+    target_link_libraries(\${IMPL_NAME}_tests GTest::gtest_main)
 
     # Register the test
-    add_test(NAME ${IMPL_NAME}_tests COMMAND ${IMPL_NAME}_tests)
+    add_test(NAME \${IMPL_NAME}_tests COMMAND \${IMPL_NAME}_tests)
 endforeach()
 EOL
+
 
 # Create template_wrapper.h.in
     cat > tasks/$task_id/template_wrapper.h.in <<EOL

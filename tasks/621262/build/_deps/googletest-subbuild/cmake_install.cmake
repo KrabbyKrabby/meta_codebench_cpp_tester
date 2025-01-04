@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild
+# Install script for directory: /Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,7 +35,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/install_local_manifest.txt"
+  file(WRITE "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +51,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/ittehad/Documents/Coding/Python/Turing/Tester_cpp_copy/tasks/621262/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/ittehad/Documents/Coding/Python/Turing/Test_Suite/tasks/621262/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -5,9 +5,6 @@
 //Just create this file, copy the model implementation into it and compile the code
 #include WRAPPER_FILE //
 
-
-
-
 TEST(FileSystemTest, NormalizePath) {
     FileSystem fs;
     // GTEST_SKIP();
