@@ -89,5 +89,4 @@ else
 fi
 
 
-!/bin/bash
 
