@@ -9,7 +9,32 @@ remove_logs() {
     fi
 }
 
-# Function to run cmake and make for a specific task
+# Function to remove the main function from all .cpp files in the src directory
+remove_main_from_src() {
+    task_id=$1
+    src_dir="tasks/$task_id/src"
+
+    # Check if the src directory exists
+    if [ -d "$src_dir" ]; then
+        echo "Processing src directory for task $task_id to remove main functions..."
+        # Loop through all .cpp files in the src directory
+        for cpp_file in "$src_dir"/*.cpp; do
+            if [ -f "$cpp_file" ]; then
+                echo "Removing main function from $cpp_file..."
+                awk '
+BEGIN { in_main = 0; braces = 0 }
+/^[ \t]*int[ \t]+main[ \t]*\(.*\)/ { in_main = 1; braces = 0 }
+/^[ \t]*{/ { if (in_main) braces++ }
+/^[ \t]*}/ { if (in_main && --braces == 0) { in_main = 0; next } }
+!in_main { print }
+' "$cpp_file" > "${cpp_file}.tmp" && mv "${cpp_file}.tmp" "$cpp_file"
+            fi
+        done
+    else
+        echo "No src directory found for task $task_id."
+    fi
+}
+
 run_task() {
     task_id=$1
 
@@ -20,6 +45,9 @@ run_task() {
     fi
 
     echo "Running task $task_id..."
+
+    # Remove all main functions from the src directory
+    remove_main_from_src "$task_id"
 
     # Create build directory if it doesn't exist
     if [ ! -d "tasks/$task_id/build" ]; then
@@ -60,6 +88,7 @@ run_task() {
     popd > /dev/null
 }
 
+
 # Function to fetch all task IDs and run tests for each
 run_all_tasks() {
     echo "Fetching all task IDs and running tests for each..."
@@ -87,6 +116,4 @@ else
         run_task $1
     fi
 fi
-
-
 
